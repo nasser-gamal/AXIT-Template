@@ -121,14 +121,6 @@ input[type= "submit"] {
 .tabs .down button {
     background-color: var(--primary-color);
 }
-@media (max-width: 575px) {
-    .tabs .tab {
-        text-align: center;
-    }
-    .tabs .text {
-        margin: 1.5rem 0;
-    }
-}
 /* End Tabs  */
 /* Start Sec  */
 .sec {
@@ -161,11 +153,6 @@ input[type= "submit"] {
 }
 .feature i {
     color: var(--primary-color);
-}
-@media (max-width: 575px) {
-    .feature .box {
-        margin: 1rem 0;
-    }
 }
 /* End features  */
 /* Start Pricing  */
@@ -227,11 +214,6 @@ input[type= "submit"] {
 }
 .customers img {
     width: 50px;
-}
-@media (max-width: 575px) {
-    .customers .row {
-        gap: 1.5rem;
-    }
 }
 /* End Customers  */
 /* Start Design  */
