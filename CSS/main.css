@@ -90,11 +90,11 @@ input[type= "submit"] {
 }
 /* End Landing  */
 /* Start Media  */
-.media svg {
+.media i {
     margin: 0.5rem 1.5rem;
     transition: 0.3s;
 }
-.media svg:hover {
+.media i:hover {
     color: var(--primary-color);
 }
 /* End Media  */
@@ -159,7 +159,7 @@ input[type= "submit"] {
 .feature .info {
     padding-top: 6rem;
 }
-.feature svg {
+.feature i {
     color: var(--primary-color);
 }
 @media (max-width: 575px) {
@@ -263,7 +263,7 @@ input[type= "submit"] {
     margin-top: 6rem;
     background-color: black;
 }
-.footer svg {
+.footer i {
     margin: 0.5rem;
     transition: 0.3s;
 }
