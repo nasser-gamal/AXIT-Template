@@ -6,6 +6,7 @@
     --trasnparent-black: #333333;
     --padding: 5rem;
 }
+/* Start Components */
 .normal {
     font-weight: 100;
 }
@@ -41,7 +42,8 @@
     transform: translateX(-50%);
     background-color: var(--primary-color);
 }
-/* Start Heading  */
+/* End Components  */
+/* Start Header  */
 .navbar {
     background-color: black;
 }
@@ -51,7 +53,7 @@
 .navbar ul li a:hover {
     color: var(--primary-color) !important;
 }
-/* End Heading  */
+/* End Header  */
 /* Start Landing  */
 .landing {
     background-image: url(../images/lost-places-1549096_1280.jpg);
@@ -90,11 +92,11 @@ input[type= "submit"] {
 }
 /* End Landing  */
 /* Start Media  */
-.media i {
+.media svg {
     margin: 0.5rem 1.5rem;
     transition: 0.3s;
 }
-.media i:hover {
+.media svg:hover {
     color: var(--primary-color);
 }
 /* End Media  */
@@ -127,7 +129,7 @@ input[type= "submit"] {
     padding-top: var(--padding);
     padding-bottom: var(--padding);
 }
-.sec i {
+.sec svg {
     color: var(--primary-color);
 }
 /* End Sec  */
@@ -151,7 +153,7 @@ input[type= "submit"] {
 .feature .info {
     padding-top: 6rem;
 }
-.feature i {
+.feature svg {
     color: var(--primary-color);
 }
 /* End features  */
@@ -193,14 +195,6 @@ input[type= "submit"] {
 @media  (min-width:768px) {
     .pricing .pro {
         transform: translateY(-35px);
-    }
-}
-@media (max-width: 575px) {
-    .pricing .row {
-        gap: 1.5rem;
-    }
-    .card {
-        margin: auto;
     }
 }
 /* End Pricing  */
@@ -245,8 +239,8 @@ input[type= "submit"] {
     margin-top: 6rem;
     background-color: black;
 }
-.footer i {
-    margin: 0.5rem;
+.footer svg {
+    /* margin: 0.5rem; */
     transition: 0.3s;
 }
 /* End footer  */
