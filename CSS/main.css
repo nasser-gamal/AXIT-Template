@@ -1,0 +1,270 @@
+:root {
+    --primary-color: #ff8b38;
+    --transparent-color: #f5f5f5;
+    --line-color: #d6d6d6;
+    --white-color: #ffffff;
+    --trasnparent-black: #333333;
+    --padding: 5rem;
+}
+.normal {
+    font-weight: 100;
+}
+.axit-btn {
+    border: 1px solid var(--white-color);
+}
+.axit-btn:hover {
+    color: black !important;
+    background-color: var(--primary-color);
+}
+.btn:focus {
+    box-shadow: none !important;
+}
+.heading::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--primary-color);
+}
+.head {
+    width: 600px;
+    max-width: 100%;
+}
+.special-heading::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+}
+/* Start Heading  */
+.navbar {
+    background-color: black;
+}
+.logo span {
+    color: var(--primary-color);
+}
+.navbar ul li a:hover {
+    color: var(--primary-color) !important;
+}
+/* End Heading  */
+/* Start Landing  */
+.landing {
+    background-image: url(../images/lost-places-1549096_1280.jpg);
+    height: calc(100vh - 74px);
+    background-size: cover;
+}
+@media (max-width:767px) {
+    .landing {
+        height: fit-content;
+    }
+}
+.landing .container .axit p {
+    width: 550px;
+    max-width: 100%;
+}
+.landing .container .axit .before::before {
+    content: "";
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--white-color);
+}
+.landing h3 span {
+    color: var(--primary-color);
+}
+form input:not([type ="submit"]) {
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--line-color);
+}
+input[type= "submit"] {
+    background-color: var(--primary-color);
+    border-radius: 0;
+}
+/* End Landing  */
+/* Start Media  */
+.media svg {
+    margin: 0.5rem 1.5rem;
+    transition: 0.3s;
+}
+.media svg:hover {
+    color: var(--primary-color);
+}
+/* End Media  */
+/* Start Tabs  */
+.tabs {
+    background-color: var(--transparent-color);
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+.tabs .buttons button {
+    width: 100px;
+    background-color: var(--trasnparent-black);
+    border-radius: 0;
+}.tabs .buttons button:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+.tabs .buttons button:not(.active):hover,
+.tabs .buttons button.active {
+    background-color: var(--primary-color);
+}
+.tabs .buttons button:focus {
+    box-shadow: none;
+}
+.tabs .down button {
+    background-color: var(--primary-color);
+}
+@media (max-width: 575px) {
+    .tabs .tab {
+        text-align: center;
+    }
+    .tabs .text {
+        margin: 1.5rem 0;
+    }
+}
+/* End Tabs  */
+/* Start Sec  */
+.sec {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+.sec svg {
+    color: var(--primary-color);
+}
+/* End Sec  */
+/* Start standerd  */
+.standerd {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    background-color: var(--transparent-color);
+}
+.standerd p {
+    font-size: 0.9rem;
+}
+/* End standerd  */
+/* Start features  */
+.feature {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    position: relative;
+}
+
+.feature .info {
+    padding-top: 6rem;
+}
+.feature svg {
+    color: var(--primary-color);
+}
+@media (max-width: 575px) {
+    .feature .box {
+        margin: 1rem 0;
+    }
+}
+/* End features  */
+/* Start Pricing  */
+.pricing {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    background-color: var(--transparent-color);
+}
+.pricing .card .info {
+    background-color: var(--trasnparent-black);
+}
+.pricing .card:not(.pro) .info {
+    border-bottom: 4px solid var(--primary-color);
+}
+.pricing .card .info h5 { 
+    border-bottom: 1px solid wheat;
+}
+.pricing .card .info span:first-of-type {
+    font-size: 4rem ;
+}
+.pricing .card .info .span::before {
+    content: "$";
+    position: absolute;
+    top: 45px;
+    left: 95px;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+.pricing .card .info span:nth-child(3) {
+    font-size: 0.8rem ;
+}
+.pricing .card .info .special-span {
+    background-color: var(--primary-color);
+}
+.pricing ul li:not(:last-of-type) {
+    padding-bottom: 0.7rem ;
+}
+@media  (min-width:768px) {
+    .pricing .pro {
+        transform: translateY(-35px);
+    }
+}
+@media (max-width: 575px) {
+    .pricing .row {
+        gap: 1.5rem;
+    }
+    .card {
+        margin: auto;
+    }
+}
+/* End Pricing  */
+/* Start Customers  */
+.customers {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+.customers .row p {
+    background-color: #eee;
+}
+.customers img {
+    width: 50px;
+}
+@media (max-width: 575px) {
+    .customers .row {
+        gap: 1.5rem;
+    }
+}
+/* End Customers  */
+/* Start Design  */
+.design {
+    background-image: url(../images/school-6982073_960_720.webp);
+    background-size: cover;
+}
+/* End Design  */
+/* Start contact */
+.contact {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+.contact textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--line-color);
+}
+.contact button {
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+}
+/* End contact */
+/* Start footer  */
+.footer {
+    margin-top: 6rem;
+    background-color: black;
+}
+.footer svg {
+    margin: 0.5rem;
+    transition: 0.3s;
+}
+/* End footer  */
