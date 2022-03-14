@@ -135,7 +135,7 @@ input[type= "submit"] {
     padding-top: var(--padding);
     padding-bottom: var(--padding);
 }
-.sec svg {
+.sec i {
     color: var(--primary-color);
 }
 /* End Sec  */
