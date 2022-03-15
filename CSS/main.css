@@ -44,6 +44,13 @@
 }
 /* End Components  */
 /* Start Header  */
+nav {
+    position: fixed;
+    top: 0;
+}
+.cont {
+    position: relative;
+}
 .navbar {
     background-color: black;
 }
@@ -52,6 +59,13 @@
 }
 .navbar ul li a:hover {
     color: var(--primary-color) !important;
+}
+.nav-bar-collapse {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
 }
 /* End Header  */
 /* Start Landing  */
