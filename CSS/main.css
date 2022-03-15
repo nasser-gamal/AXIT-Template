@@ -45,13 +45,6 @@
 /* End Components  */
 /* Start Header  */
 nav {
-    position: fixed;
-    top: 0;
-}
-.cont {
-    position: relative;
-}
-.navbar {
     background-color: black;
 }
 .logo span {
@@ -60,26 +53,20 @@ nav {
 .navbar ul li a:hover {
     color: var(--primary-color) !important;
 }
-@media (max-width: 991px) {
-    .navbar-collapse {
-        position: absolute;
-        top: 100%;
-        width: 100%;
-        background-color: black;
-        z-index: 9999;
-    }
-}
 /* End Header  */
 /* Start Landing  */
 .landing {
     background-image: url(../images/lost-places-1549096_1280.jpg);
-    height: calc(100vh - 74px);
+    height: 100vh;
     background-size: cover;
 }
 @media (max-width:767px) {
     .landing {
         height: fit-content;
     }
+}
+.landing .row {
+    padding-top: var(--padding);
 }
 .landing .container .axit p {
     width: 550px;
