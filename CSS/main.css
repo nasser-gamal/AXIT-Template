@@ -60,12 +60,14 @@ nav {
 .navbar ul li a:hover {
     color: var(--primary-color) !important;
 }
-.nav-bar-collapse {
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    background-color: black;
-    z-index: 9999;
+@media (max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background-color: black;
+        z-index: 9999;
+    }
 }
 /* End Header  */
 /* Start Landing  */
